@@ -12,6 +12,7 @@ I used it. Otherwise, I had to do without the missing values. As such, the most 
 dataset is the cleaning, handling of missing values, and finding interesting questions that the available dataset
 can answer.
 
+
 Objectives
 The first objective in dealing with this dataset is to perform data cleaning, engineer some features (i.e an imputed 
 column on the total yield in quantity), analyze and visualize the data. To this end, I renamed the original 
@@ -24,3 +25,9 @@ a tree map in Python with Squarify. The last important objective was to apply re
 and clustering to the cleaned data. For the logistic regression and classification tasks, I used metrics such as
 accuracy, confusion matrix, classification report to assess the performance of the models. When models relied on
 the null accuracy, I made use of an oversampling techniques to improve the accuracy.
+
+
+References :
+
+https://books.google.de/books?id=Yw_WDwAAQBAJ&pg=PT78&lpg=PT78&dq=gorogoro+in+kg&source=bl&ots=-K7b9EDD-q&sig=ACfU3U13VvifcyeAqkc2nnXW6oi4E9QP2Q&hl=de&sa=X&ved=2ahUKEwiJ9-3QoYPqAhViUBUIHQijCIMQ6AEwAHoE
+CAgQAQ#v=onepage&q=gorogoro%20in%20kg&f=false
