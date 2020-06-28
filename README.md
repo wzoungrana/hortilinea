@@ -1,19 +1,19 @@
 # hortilinea
 A repository to host my first data science project.
 
-About the Dataset
-I encountered this dataset in a statistic class I took. The dataset was presented as 'dirty' and therefore 
+## About the Dataset
+
+The dataset was presented as 'dirty' and therefore 
 needing thorough cleaning before anything meaningful could be undertaken with the data. The dataset itself 
 "hortilinea.csv" is a survey conducted on a sample of Kenyan farmers to find out what type of produce their 
 (small) farms generated, the produced quantity. The variables of the survey present some peculiarities such as
 local measurement units (i.e. gorogoro, debe, pakaacha, handful, heap) whose equivalency with international 
 measurements are not easily and unequivocally established. Where I found reliable information in the Internet, 
 I used it. Otherwise, I had to do without the missing values. As such, the most important takeaway from this 
-dataset is the cleaning, handling of missing values, and finding interesting questions that the available dataset
-can answer.
+dataset is the cleaning, handling of missing values, and finding interesting questions that the available dataset can answer.
 
 
-Objectives
+## Objectives
 The first objective in dealing with this dataset is to perform data cleaning, engineer some features (i.e an imputed 
 column on the total yield in quantity), analyze and visualize the data. To this end, I renamed the original 
 columns, dropped irrelevant ones, generated nullity matrix, computed the percentage of missing values, wrote 
@@ -26,8 +26,3 @@ and clustering to the cleaned data. For the logistic regression and classificati
 accuracy, confusion matrix, classification report to assess the performance of the models. When models relied on
 the null accuracy, I made use of an oversampling techniques to improve the accuracy.
 
-
-References :
-
-https://books.google.de/books?id=Yw_WDwAAQBAJ&pg=PT78&lpg=PT78&dq=gorogoro+in+kg&source=bl&ots=-K7b9EDD-q&sig=ACfU3U13VvifcyeAqkc2nnXW6oi4E9QP2Q&hl=de&sa=X&ved=2ahUKEwiJ9-3QoYPqAhViUBUIHQijCIMQ6AEwAHoE
-CAgQAQ#v=onepage&q=gorogoro%20in%20kg&f=false
