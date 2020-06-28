@@ -26,7 +26,10 @@ the null accuracy, I made use of an oversampling techniques to improve the accur
     1. Statsmodels OLS Regression:
     
 X= HarvestQuantSold + PostHarvestPrice + TotalExpenditure + C(ProductDesignation) + SeedPlantedPrice'
+
 y= HarvestIncomeinEur
+
+
 LinearModel = smf.ols(formula='HarvestIncomeinEur ~  HarvestQuantSold + PostHarvestPrice + TotalExpenditure + C(ProductDesignation) + SeedPlantedPrice',data=renamed_df)
 
 R-Squared Adjusted = 0.65
@@ -34,20 +37,16 @@ R-Squared Adjusted = 0.65
     2. Linear Regression with the Scikit -Package and CV
  
 X= renamed_df[['HarvestQuantSold', 'PostHarvestPrice', 'TotalExpenditure', 'SeedPlantedPrice']]
+
 y= renamed_df[['HarvestIncomeinEur']]
 
-Train Scores: [0.55014908 0.65735969 0.46731959 0.59838602 0.75350843]
-=============================================================
-Test Scores: [ 0.81753283  0.12179442  0.59255656  0.60907234 -4.00299248]
-=============================================================
+Test Scores: [ 0.81753283,  0.12179442,   0.59255656,  0.60907234 , -4.00299248]
+
 Test Score Agrregrated: -0.37240726575254834
+
 
     3. Linear Regression with Random Forest and CV and Polynomial Features through Pipeline
     
- Train Scores: [1. 1. 1. 1. 1.]
-=============================================================
-Test Scores: [1. 1. 1. 1. 1.]
-=============================================================
 Test Score Agrregrated: 1.0
 
 ### Clustering 
