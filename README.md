@@ -3,14 +3,7 @@ A repository to host my first data science project.
 
 ## About the Dataset
 
-The dataset was presented as 'dirty' and therefore 
-needing thorough cleaning before anything meaningful could be undertaken with the data. The dataset itself 
-"hortilinea.csv" is a survey conducted on a sample of Kenyan farmers to find out what type of produce their 
-(small) farms generated, the produced quantity. The variables of the survey present some peculiarities such as
-local measurement units (i.e. gorogoro, debe, pakaacha, handful, heap) whose equivalency with international 
-measurements are not easily and unequivocally established. Where I found reliable information in the Internet, 
-I used it. Otherwise, I had to do without the missing values. As such, the most important takeaway from this 
-dataset is the cleaning, handling of missing values, and finding interesting questions that the available dataset can answer.
+The dataset is 'dirty' and therefore needed thorough cleaning before anything meaningful could be undertaken with the data. The dataset itself "hortilinea.csv" is a survey conducted on a sample of Kenyan farmers to find out what type of produce their (small) farms generated, the produced quantity. The variables of the survey present some peculiarities such as local measurement units (i.e. gorogoro, debe, pakaacha, handful, heap) whose equivalency with international measurements are not easily and unequivocally established. Where I found reliable information in the Internet, I used it. Otherwise, I had to do without the missing values. As such, the most important takeaway from this dataset is the cleaning, handling of missing values, and finding interesting questions that the available dataset can answer.
 
 
 ## Objectives
