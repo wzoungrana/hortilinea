@@ -32,7 +32,7 @@ y= HarvestIncomeinEur
 
 LinearModel = smf.ols(formula='HarvestIncomeinEur ~  HarvestQuantSold + PostHarvestPrice + TotalExpenditure + C(ProductDesignation) + SeedPlantedPrice',data=renamed_df)
 
-R-Squared Adjusted = 0.65
+**R-Squared Adjusted = 0.65**
 
     2. Linear Regression with the Scikit -Package and CV
  
@@ -40,20 +40,20 @@ X= renamed_df[['HarvestQuantSold', 'PostHarvestPrice', 'TotalExpenditure', 'Seed
 
 y= renamed_df[['HarvestIncomeinEur']]
 
-Test Scores: [ 0.81753283,  0.12179442,   0.59255656,  0.60907234 , -4.00299248]
+**Test Scores: [ 0.81753283,  0.12179442,   0.59255656,  0.60907234 , -4.00299248]**
 
-Test Score Agrregrated: -0.37240726575254834
+**Test Score Agrregrated: -0.37240726575254834**
 
 
     3. Linear Regression with Random Forest and CV and Polynomial Features through Pipeline
     
-Test Score Agrregrated: 1.0
+**Test Score Agrregrated: 1.0**
 
 ### Clustering 
 
 4. Clustering with KMeans
 
-Data grouped grouped in three clusters according to harvest quantity and income (See notebook for more details).
+Data grouped grouped in **three clusters** according to harvest quantity and income (See notebook for more details).
 
 X_cluster = renamed_df[['HarvestQuantSold','HarvestIncomeinEur']]
   
@@ -69,14 +69,14 @@ y_log = log['feat_cat']
 
 Accuraracy Train Score: 0.62
 
-Accuracy Test Score: 0.64
+**Accuracy Test Score: 0.64**
 
 ------> Actually null accuracy. Data needed Resampling. I tried another algorithm instead.
 
 
  6. Random Forest Classifier
   
-  Test Score : 0. 68
+  **Test Score : 0. 68**
  
  For confusion matrix and classification reports, see notebook. 
 
