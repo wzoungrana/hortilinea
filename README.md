@@ -50,28 +50,32 @@ Test Scores: [1. 1. 1. 1. 1.]
 =============================================================
 Test Score Agrregrated: 1.0
 
+### Clustering 
 
-  4. Clustering 
+4. Clustering with KMeans
 
 Data grouped grouped in three clusters according to harvest quantity and income (See notebook for more details).
 
 X_cluster = renamed_df[['HarvestQuantSold','HarvestIncomeinEur']]
   
   
- 5. Logistic Regression
+ ### Classification
  
- X_log = log[['YieldedQtyinKg', 'HarvestIncome']]
+ 
+5. Logistic Regression in Scikit
+ 
+X_log = log[['YieldedQtyinKg', 'HarvestIncome']]
 
 y_log = log['feat_cat']
 
 Accuraracy Train Score: 0.62
-==========================================================
+
 Accuracy Test Score: 0.64
 
 ------> Actually null accuracy. Data needed Resampling. I tried another algorithm instead.
 
 
-    Random Forest Classifier
+ 6. Random Forest Classifier
   
   Test Score : 0. 68
  
