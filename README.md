@@ -1,5 +1,5 @@
 # hortilinea
-A repository to host my first data science project.
+A repository on farming, fertilizers, crops and vegetables in rural Kenya.
 
 ## About the Dataset
 
@@ -40,9 +40,9 @@ X= renamed_df[['HarvestQuantSold', 'PostHarvestPrice', 'TotalExpenditure', 'Seed
 
 y= renamed_df[['HarvestIncomeinEur']]
 
-**Test Scores: [ 0.81753283,  0.12179442,   0.59255656,  0.60907234 , -4.00299248]**
+***Test Scores: [ 0.81753283,  0.12179442,   0.59255656,  0.60907234 , -4.00299248]**
 
-**Test Score Agrregrated: -0.37240726575254834**
+***Test Score Agrregrated: -0.37240726575254834**
 
 
     3. Linear Regression with Random Forest and CV and Polynomial Features through Pipeline
