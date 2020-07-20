@@ -21,37 +21,46 @@ the null accuracy, I made use of an oversampling techniques to improve the accur
 
 ## Machine Learning Models
 
-<table>
+### A tabular summary of ML models tried with this dataset
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#aaa;border-spacing:0;}
+.tg td{background-color:#fff;border-color:#aaa;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#f38630;border-color:#aaa;border-style:solid;border-width:1px;color:#fff;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
 <thead>
   <tr>
-    <th>ML Model</th>
-    <th>Score (R2, Accuracy or Clusters)</th>
+    <th class="tg-0lax"><span style="font-weight:600">ML Model</span></th>
+    <th class="tg-0lax"><span style="font-weight:bold">Score (R2, Accuracy or Clusters)</span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Statsmodels OLS Regression</td>
-    <td>0.65</td>
+    <td class="tg-0lax">Statsmodels OLS Regression</td>
+    <td class="tg-0lax"><span style="font-style:normal;text-decoration:none">0.65</span></td>
   </tr>
   <tr>
-    <td>Linear Regression with the Scikit -Package and CV</td>
-    <td>-0.37240726575254834</td>
+    <td class="tg-0lax">Linear Regression with the Scikit -Package and CV</td>
+    <td class="tg-0lax">-0.37</td>
   </tr>
   <tr>
-    <td>Linear Regression with Random Forest and CV and Polynomial Features through Pipeline</td>
-    <td>1.0</td>
+    <td class="tg-0lax">Linear Regression with Random Forest and CV and Polynomial Features through Pipeline</td>
+    <td class="tg-0lax">1.0</td>
   </tr>
   <tr>
-    <td>Clustering with KMeans</td>
-    <td>3 Clusters</td>
+    <td class="tg-0lax">Clustering with KMeans</td>
+    <td class="tg-0lax">3 Clusters</td>
   </tr>
   <tr>
-    <td>Logistic Regression in Scikit</td>
-    <td>0.64</td>
+    <td class="tg-0lax">Logistic Regression in Scikit</td>
+    <td class="tg-0lax">0.64</td>
   </tr>
   <tr>
-    <td>Random Forest Classifier</td>
-    <td>0.68</td>
+    <td class="tg-0lax">Random Forest Classifier</td>
+    <td class="tg-0lax">0.68</td>
   </tr>
 </tbody>
 </table>
