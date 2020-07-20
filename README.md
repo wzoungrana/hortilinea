@@ -21,6 +21,41 @@ the null accuracy, I made use of an oversampling techniques to improve the accur
 
 ## Machine Learning Models
 
+<table>
+<thead>
+  <tr>
+    <th>ML Model</th>
+    <th>Score (R2, Accuracy or Clusters)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Statsmodels OLS Regression</td>
+    <td>0.65</td>
+  </tr>
+  <tr>
+    <td>Linear Regression with the Scikit -Package and CV</td>
+    <td>-0.37240726575254834</td>
+  </tr>
+  <tr>
+    <td>Linear Regression with Random Forest and CV and Polynomial Features through Pipeline</td>
+    <td>1.0</td>
+  </tr>
+  <tr>
+    <td>Clustering with KMeans</td>
+    <td>3 Clusters</td>
+  </tr>
+  <tr>
+    <td>Logistic Regression in Scikit</td>
+    <td>0.64</td>
+  </tr>
+  <tr>
+    <td>Random Forest Classifier</td>
+    <td>0.68</td>
+  </tr>
+</tbody>
+</table>
+
 ### Linear Regression 
 
     1. Statsmodels OLS Regression:
